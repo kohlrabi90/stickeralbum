@@ -1,0 +1,23 @@
+/*This is the style sheet */
+body {
+  background-color: lightyellow;
+  font-family: Verdana;
+}
+
+#title {
+  position: relative;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0px 30px 5px 50px;
+  margin: 10px 5px 5px 50px;
+  text-align: center;
+}
+
+#menu a {
+  text-decoration: none;
+  color: black;
+  position: relative;
+  margin: 50px 50px 50px 50px;
+  padding: 100px 30px 50px 50px;
+  
+}
