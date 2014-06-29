@@ -2,22 +2,34 @@
 body {
   background-color: lightyellow;
   font-family: Verdana;
+  margin: 0px;
+  padding: 0px;
 }
 
 #title {
-  position: relative;
-  border: 1px solid black;
-  border-radius: 5px;
-  padding: 0px 30px 5px 50px;
-  margin: 10px 5px 5px 50px;
+  margin-top: 20%;
+  font-size: 50pt;
   text-align: center;
+  width: 100%;
+}
+
+#menu {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 20pt;
+  width: 100%;
+  
 }
 
 #menu a {
   text-decoration: none;
   color: black;
-  position: relative;
-  margin: 50px 50px 50px 50px;
-  padding: 100px 30px 50px 50px;
+  margin: 50px;
+  padding: 2px;
+}
+
+#menu a:hover {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
   
 }
