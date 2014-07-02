@@ -33,3 +33,9 @@ body {
   border-bottom: 2px solid black;
   
 }
+
+#album_header {
+	text-align: center;
+	font-size: 30pt;
+	margin-bottom: 5%;
+}
