@@ -35,7 +35,44 @@ body {
 }
 
 #album_header {
-	text-align: center;
-	font-size: 30pt;
-	margin-bottom: 5%;
+  font-size: 50pt;
+  text-align: center;
+  width: 100%;
 }
+
+#container {
+	margin: 0px 10%;
+	width: 80%;
+}
+
+#container td {
+	width: 20%;
+}
+	
+
+.item {
+	margin: 10%;
+	padding: 10px;
+	width: 80%;
+	border: solid black 2px;
+	border-radius: 5px;
+	text-align: center;
+	background-color: white;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+.item:hover {
+	border: solid black 3px;
+}
+
+.item img {
+	width: 90%;
+	display: inline;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
