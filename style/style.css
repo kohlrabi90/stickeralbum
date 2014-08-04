@@ -76,3 +76,21 @@ a {
 	color: black;
 }
 
+/*This is the style for form.html */
+
+#buttons {
+	margin: 0px 30%;	
+}
+
+.btn {
+	margin: 5%;
+	position: inline;
+	width: 100%;
+	padding: 10px;
+	font-size:14pt;
+}
+
+.btn:hover {
+	border: 3px outset buttonface;
+}
+
